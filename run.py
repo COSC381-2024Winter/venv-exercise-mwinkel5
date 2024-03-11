@@ -1,3 +1,4 @@
 from print2 import pprint
-# Print2 requires termcolor to run
-pprint("Hello world", prefix="### ", indent="\t", color="green", level=2)
+import emoji
+# Print2 requires `termcolor` to be installed to run, so that is my third dependancy
+pprint(emoji.emojize(":thumbs_up:"), prefix="Python is: ", indent="\t", color="blue", level=1)
