@@ -1,3 +1,0 @@
-print2
-termcolor
-emoji
